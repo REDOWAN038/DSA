@@ -16,12 +16,12 @@ int findLargestElement(int arr[], int n) {
 
 int main() {
   int arr1[] = {2,10,9,3,11};
-  int n = 5;
+  int n = sizeof(arr1)/sizeof(arr1[0]);
   int max = findLargestElement(arr1, n);
   cout << "The largest element in the array is: " << max << endl;
  
   int arr2[] =  {8,12,9,7,4};
-  n = 5;
+  n = sizeof(arr2)/sizeof(arr2[0]);
   max = findLargestElement(arr2, n);
   cout << "The largest element in the array is: " << max<<endl;
   return 0;
