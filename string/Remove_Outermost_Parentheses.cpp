@@ -1,6 +1,7 @@
-// TC : O(logN)
+// TC : O(N)
 // SC : O(1)
 // Leetcode 1021
+
 class Solution {
 public:
     string removeOuterParentheses(string s) {
