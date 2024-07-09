@@ -1,5 +1,5 @@
 // TC : O(N)
-// SC : O(N)
+// SC : O(1)
 // Leetcode 1903
 
 class Solution {
