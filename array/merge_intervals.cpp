@@ -1,4 +1,4 @@
-// TC : O(blogn)
+// TC : O(nlogn)
 // SC : O(1)  (if we consider ans then O(N))
 // Leetcode 56
 
